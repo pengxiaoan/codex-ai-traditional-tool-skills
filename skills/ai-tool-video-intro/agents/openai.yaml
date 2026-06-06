@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Tool Video Intro"
+  short_description: "Consistent 3-second AI/tool video intro."
+  default_prompt: "Use $ai-tool-video-intro to create a 3-second branded intro and prepend it to this tutorial recording."

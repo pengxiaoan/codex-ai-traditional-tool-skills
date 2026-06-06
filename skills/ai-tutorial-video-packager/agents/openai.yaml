@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Tutorial Video Packager"
+  short_description: "Package AI tool tutorials for publishing."
+  default_prompt: "Use $ai-tutorial-video-packager to create narration, voiceover, subtitles, intro, and a final upload-ready tutorial video."
