@@ -1,0 +1,4 @@
+interface:
+  display_name: "SolidWorks Mechanical Modeling"
+  short_description: "Build, record, and validate SolidWorks models"
+  default_prompt: "Use $solidworks-build-mechanical-models to plan, create, assemble, record, and validate a mechanical SolidWorks model."
