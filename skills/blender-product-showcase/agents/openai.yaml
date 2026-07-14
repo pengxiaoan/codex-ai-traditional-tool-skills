@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blender Product Showcase"
+  short_description: "Build editable Blender product models and showcase animations"
+  default_prompt: "Use $blender-product-showcase to turn my product references and design brief into an editable Blender model and showcase animation."
