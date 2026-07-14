@@ -1,0 +1,71 @@
+{
+  "project": {
+    "slug": "generic_product_showcase",
+    "title": "Generic Product Showcase",
+    "language": "zh-CN"
+  },
+  "product": {
+    "name": "Replace with product name",
+    "category": "consumer-product",
+    "brand_policy": "logo-free",
+    "design_goal": "Premium, editable hard-surface product model"
+  },
+  "assets": {
+    "references": [],
+    "textures": [],
+    "models": []
+  },
+  "geometry": {
+    "dimensions_m": {
+      "width": 0.3,
+      "depth": 0.2,
+      "height": 0.1
+    },
+    "parts": [
+      {"name": "MainBody", "parent": "Product_Root", "required": true},
+      {"name": "DetailAssembly", "parent": "Product_Root", "required": false}
+    ],
+    "modeling_notes": [
+      "Use separate editable parts",
+      "Bevel all visible hard edges",
+      "Create real pivots before animation"
+    ]
+  },
+  "materials": [
+    {
+      "name": "MAT_Primary",
+      "type": "principled",
+      "base_color": [0.18, 0.2, 0.24, 1.0],
+      "metallic": 0.8,
+      "roughness": 0.26
+    }
+  ],
+  "animation": {
+    "duration_seconds": 12,
+    "fps": 30,
+    "frame_start": 1,
+    "frame_end": 360,
+    "beats": [
+      "dark reveal",
+      "assembly or feature motion",
+      "material/detail close-up",
+      "side or orbit view",
+      "hero hold"
+    ]
+  },
+  "render": {
+    "aspect_ratio": "16:9",
+    "resolution": [1920, 1080],
+    "engine": "CYCLES",
+    "preview_samples": 32,
+    "final_samples": 192,
+    "color_management": "AgX"
+  },
+  "outputs": {
+    "blend_file": "generic_product_showcase.blend",
+    "previews": "previews",
+    "frames": "renders/frames",
+    "video": "renders/video/generic_product_showcase.mp4",
+    "hero_still": "renders/stills/generic_product_hero_4k.png"
+  }
+}
